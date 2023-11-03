@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --navbar : rgba(97, 116, 81, 1);
+    --header : rgba(169, 198, 144, 1);
+    --main : rgba(157, 191, 171, 0.58);
+}
+
+html {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;    
+}
+
+.navbars {
+    background-color: var(--navbar) !important;    
+}
+
+.navbars a {
+    color: white;
+}
+
+.navbar-nav .nav-item:hover .nav-link {
+    font-weight: bold;
+}
+
+.header {
+    background-color: var(--header) !important;
+}
+
+.main {
+    background-color: var(--main) !important;
+}
+
+.main p {
+    text-align: justify;
+}
